@@ -53,3 +53,5 @@ def display_results(frame, codes):
         # Put label text
         cv2.putText(frame, label, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 0), 2)
     return frame
+
+# Note: 2026-01-06 - maintenance update
